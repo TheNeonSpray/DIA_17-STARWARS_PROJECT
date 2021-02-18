@@ -1,3 +1,32 @@
-/* 
-    General Styles
-*/
+// CAMBIAR FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+// AQUÍ ESTA EL BACKGROUND DE ESTRELLAS
+body {
+ background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80);
+// CAMBIAR FONT
+ font-family: 'Poppins', sans-serif;
+}
+
+
+.logo{
+    padding-left: 50px;
+}
+// ESTE ES EL COLOR DEL FONDO DEL NAVBAR PUEDEN PONERLE OTRO, IGUAL QUE EL ESTILO DEL BORDE, YO EL BORDE LO TENGO DOBLE PERO PUEDEN PONERLO DIFERENTE COMO dotted, dashed, solid E INCLUSO UN MIX DEL ESTILO DE LOS BORDES O SIN BORDES. TAMBIEN PUEDEN CAMBIAR EL COLOR DEL BORDE
+.navbar{
+    background-color: black;
+    border-bottom-style: double;
+    border-color: #fac700;
+}
+// ESTE ES EL COLOR DEL BOTON DROPDOWN
+.dropdown{
+    background-color: #fac700;
+}
+// COLOR DE TEXTO EN EL JUMBOTRON
+.jumbotron{
+    color: #fac700;
+}
+// AQUI SE CAMBIA EL BORDE DE LA IMAGEN O GIF DENTRO DEL JUMBOTRON
+.jumbotron img{
+    border-radius: 28px
+}
